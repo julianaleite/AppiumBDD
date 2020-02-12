@@ -36,7 +36,7 @@ public class DriverManager {
 
 	public static void fecharDriver() {  
 		if (driver != null) {
-			driver.quit();
+			driver.quit(); 
 			driver = null;
 		}
 
